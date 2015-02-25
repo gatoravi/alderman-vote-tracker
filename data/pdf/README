@@ -1,0 +1,2 @@
+seq -f %02g 1 52 | xargs -I {} echo wget https://www.stlouis-mo.gov/internal-apps/city-journal/upload/city-journal/96_{}_a.pdf | bash
+seq -f %02g 1 52 | xargs -I {} echo wget https://www.stlouis-mo.gov/internal-apps/city-journal/upload/city-journal/97_{}_a.pdf | bash

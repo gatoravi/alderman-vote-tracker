@@ -1,0 +1,1 @@
+ ls *pdf | xargs -I {} echo "~/bin/pdf2txt.py {} > ../txt/{}.txt" | bash
